@@ -17,6 +17,8 @@
     version();
     const char *path = db_path();
     printf("%s", path);
+    
+    reverse("hello world");
     return YES;
 }
 
