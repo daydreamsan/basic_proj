@@ -7,12 +7,16 @@
 //
 
 #import "BKAppDelegate.h"
+#import <BKConst.h>
 
 @implementation BKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    version();
+    const char *path = db_path();
+    printf("%s", path);
     return YES;
 }
 

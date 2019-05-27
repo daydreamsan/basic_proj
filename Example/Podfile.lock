@@ -1,0 +1,16 @@
+PODS:
+  - basic_proj (0.1.0)
+
+DEPENDENCIES:
+  - basic_proj (from `../`)
+
+EXTERNAL SOURCES:
+  basic_proj:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  basic_proj: fbb9dc4b211fc9710af2f1c7a8a257b57ca52548
+
+PODFILE CHECKSUM: c0d11e7a9f580d3dde891ac87fe86e50120f1c2a
+
+COCOAPODS: 1.7.0
